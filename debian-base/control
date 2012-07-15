@@ -1,0 +1,26 @@
+Source: phantomjs
+Section: web
+Priority: extra
+Maintainer: Martin Malek <github@marten-online.com>
+Build-Depends: debhelper (>= 7.0.50~),
+	qt4-qmake, 
+	libqt4-dev,
+	libqtwebkit-dev, 
+	python-setuptools,
+	python-support,
+	python-all-dev,
+	libjs-coffeescript
+Standards-Version: 3.9.2
+Homepage: http://phantomjs.org/
+
+Package: phantomjs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: minimalistic headless WebKit-based with JavaScript API
+ PhantomJS is a headless WebKit with JavaScript API. It has fast and native
+ support for various web standards: DOM handling, CSS selector, JSON, Canvas,
+ and SVG.
+ .
+ PhantomJS is an optimal solution for headless testing of web-based
+ applications, site scraping, pages capture, SVG renderer, PDF converter
+ and many other use cases.

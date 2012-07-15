@@ -1,0 +1,7 @@
+The Debian Package phantomjs
+----------------------------
+
+PhantomJS is a headless WebKit scriptable with JavaScript or CoffeeScript.
+It is used by hundreds of and dozens of companies for web-related development workflow.
+
+-- Martin Malek <github@marten-online.com> Wed, 11 Jul 2012 14:09:35 +0200
